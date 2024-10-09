@@ -1,0 +1,60 @@
+/* CSS for container and split layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
+
+.left-section, .right-section {
+  width: 45%;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section label {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.right-section input, select {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.right-section button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.right-section button:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
